@@ -8,4 +8,6 @@ var server=http.createServer(
     }
 );
 
-server.listen(3000,'127.0.0.1');
+const PORT = 3000;
+const HOST = '0.0.0.0';
+server.listen(PORT,HOST);
